@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Block admin and embeds from indexing as standalone
+Disallow: /admin/
+Disallow: /embed/
+Disallow: /*?*sort=
+Disallow: /*?*filter=
+
+# Allow the guide embed source
+Allow: /embed/guide
+
+# Sitemaps
+Sitemap: https://zeldaseries.com/sitemap.xml
+
+# Host
+Host: https://zeldaseries.com
